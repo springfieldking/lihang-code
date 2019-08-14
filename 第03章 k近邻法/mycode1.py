@@ -18,4 +18,5 @@ x3 = [4, 4]
 # x1, x2
 for i in range(1, 5):
     r = {'1-{}'.format(c): L(x1, c, p=i) for c in [x2, x3]}
+    print(r)
     print(min(zip(r.values(), r.keys())))
